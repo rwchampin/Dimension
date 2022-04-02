@@ -1,0 +1,39 @@
+{% schema %}
+{
+  "name": "featured-3d-product",
+  "settings": [{
+  "type": "text",
+  "label": "3d Featured Product Eyebrow",
+  "id": "eyebrow"
+  },{
+    "type": "text",
+    "label": "3d Featured Product Title",
+    "id": "title"
+  },{
+    "type": "richtext",
+    "label": "3d Featured Product Subtitle",
+    "id": "subtitle"
+  },{
+    "type": "product",
+    "label": "3d Featured Product",
+    "id": "product"
+  },{
+    "type": "color",
+    "label": "bg color",
+    "id": "bg-color"
+  }],
+  "blocks": [{
+"type": "image",
+"name": "image block",
+"settings": [{
+  "type": "image_picker",
+  "label": "Image",
+  "id": "image"
+  }]
+}],
+  "presets": [{
+    "category": "3D",
+    "name": "3D Featured Product",
+  }]
+}
+{% endschema %}
